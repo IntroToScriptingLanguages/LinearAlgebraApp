@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="LinearAlgebraApp\LinearAlgebraApp.csproj" RefactoringSettings.EnableRefactorings="True">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Android.Xamarin_Android_API_15" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LinearAlgebraApp\VectorOperationsActivity.cs">
+    <Files>
+      <File FileName="LinearAlgebraApp\MatrixOperationsActivity.cs" Line="44" Column="38" />
+      <File FileName="LinearAlgebraApp\Assets\Matrix.cs" Line="194" Column="29" />
+      <File FileName="LinearAlgebraApp\Assets\Vector.cs" Line="293" Column="21" />
+      <File FileName="LinearAlgebraApp\VectorOperationsActivity.cs" Line="432" Column="32" />
+      <File FileName="LinearAlgebraApp\Assets\Scalar.cs" Line="13" Column="3" />
+      <File FileName="LinearAlgebraApp\Assets\Element.cs" Line="9" Column="39" />
+      <File FileName="LinearAlgebraApp\Assets\Operation.cs" Line="14" Column="41" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.LinearAlgebraApp AndroidDesignerPreferredDevice="Nexus 4" />
+</Properties>

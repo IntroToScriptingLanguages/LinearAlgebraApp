@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:minWidth="25px"
+    android:minHeight="25px"
+    android:id="@+id/outer_layout">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true"
+        android:id="@+id/scrollView1">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:minWidth="25px"
+            android:minHeight="25px"
+            android:id="@+id/inner_layout">
+            <LinearLayout
+                android:paddingBottom="10px"
+                android:paddingTop="10px"
+                android:paddingLeft="10px"
+                android:paddingRight="10px"
+                android:orientation="vertical"
+                android:minWidth="25px"
+                android:minHeight="25px"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout1">
+                <TextView
+                    android:text="Vector Operations app"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView1"
+                    android:includeFontPadding="true"
+                    android:lineSpacingExtra="0dp"
+                    android:textAlignment="center"
+                    android:gravity="top"
+                    android:background="#ffe6dddd"
+                    android:textColor="#ff000000" />
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:minWidth="10px"
+                    android:minHeight="10px"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linearLayout2" />
+                <EditText
+                    android:inputType="numberDecimal|numberSigned"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editText1"
+                    android:background="#ffeaeaea"
+                    android:textColor="#ff000000" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/linearLayout3">
+                <Button
+                    android:text="VECTOR"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/leftbracket" />
+                <Button
+                    android:text="NORM"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/norm" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/linearLayout4">
+                <Button
+                    android:text="+"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/plus" />
+                <Button
+                    android:text="*"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/times" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/linearLayout5"
+                android:minWidth="25px"
+                android:minHeight="25px">
+                <Button
+                    android:text="-"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/minus" />
+                <Button
+                    android:text="BACK"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/back" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/linearLayout5"
+                android:minWidth="25px"
+                android:minHeight="25px">
+                <Button
+                    android:text=","
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/comma" />
+                <Button
+                    android:text="="
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/equal" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="1"
+                android:id="@+id/linearLayout6">
+                <Button
+                    android:text="CLEAR"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/clear" />
+                <Button
+                    android:text="MENU"
+                    android:layout_width="match_parent"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/menu" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
